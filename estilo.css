@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+}
+/* --------  Header  -------- */
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: black;
+  }
+  header #logo {
+    position: absolute;
+    top: 10px;
+    float: left;
+    height: 40px;
+    width: 170px;
+    margin-left: 5%;
+  }
+  header #logo img{
+    max-height: 100%;
+  }
+  header .menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 5%;
+  }
+  header .menu li {
+    float: left;
+    font-size: 18px;
+    padding: 20px 10px 20px 10px;
+  }
+  header .menu li a {
+    color: initial;
+    text-decoration: initial;
+    color: white;
+  }
+  header .menu li:hover {
+    background-color: #01acea;
+  }
+
+  a{
+      color: aliceblue;
+  }
+#imagem_fundo {
+    background: url("https://i.ibb.co/X5t87YZ/Rio-Araguaia.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+
+
+#subtitulo {
+    color:rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    align-items: center;
+    width: 20%;
+    height: 20%;
+  
+}
+#projeto {
+    padding: 20px;
+   background-color:  #8a8989;
+}
+#objetivo {
+    padding: 20px;
+    
+}
+.imeco {
+    width: 50%;
+}
+
+.coluna1 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+  
+}
+.justificado{
+    text-align: justify;
+}
+.coluna2{
+    float: left;
+    width: 25%;
+    align-items: center;
+    padding: 0 5%;
+}
+img{
+  position: center;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+.obj{
+    text-align: center;
+}
+h3{
+    color: darkblue;
+}
+footer{
+    overflow: hidden;
+    clear: both;
+    background-color: black;
+    color: bisque;
+}
